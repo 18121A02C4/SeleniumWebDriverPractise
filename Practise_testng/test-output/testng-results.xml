@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="10" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-12T17:41:28 IST" name="Suite" finished-at="2022-12-12T17:42:37 IST" duration-ms="69079">
+    <groups>
+    </groups>
+    <test started-at="2022-12-12T17:41:28 IST" name="LoginTest" finished-at="2022-12-12T17:41:49 IST" duration-ms="21250">
+      <class name="com.tests.Orangehrm">
+        <test-method is-config="true" signature="initialisebrowser()[pri:0, instance:com.tests.Orangehrm@34a3d150]" started-at="2022-12-12T17:41:28 IST" name="initialisebrowser" finished-at="2022-12-12T17:41:35 IST" duration-ms="6875" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialisebrowser -->
+        <test-method signature="login()[pri:0, instance:com.tests.Orangehrm@34a3d150]" started-at="2022-12-12T17:41:35 IST" name="login" finished-at="2022-12-12T17:41:48 IST" duration-ms="12954" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="verifyLogin()[pri:0, instance:com.tests.Orangehrm@34a3d150]" started-at="2022-12-12T17:41:48 IST" name="verifyLogin" finished-at="2022-12-12T17:41:48 IST" duration-ms="129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.tests.Orangehrm@34a3d150]" started-at="2022-12-12T17:41:48 IST" name="teardown" finished-at="2022-12-12T17:41:49 IST" duration-ms="1207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.tests.Orangehrm -->
+    </test> <!-- LoginTest -->
+    <test started-at="2022-12-12T17:41:50 IST" name="ContactsTest" finished-at="2022-12-12T17:42:11 IST" duration-ms="20907">
+      <class name="com.tests.Orangehrm">
+        <test-method is-config="true" signature="initialisebrowser()[pri:0, instance:com.tests.Orangehrm@2d1ef81a]" started-at="2022-12-12T17:41:50 IST" name="initialisebrowser" finished-at="2022-12-12T17:41:54 IST" duration-ms="4509" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialisebrowser -->
+        <test-method signature="login()[pri:0, instance:com.tests.Orangehrm@2d1ef81a]" started-at="2022-12-12T17:41:54 IST" name="login" finished-at="2022-12-12T17:42:07 IST" duration-ms="13036" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="navigateToContacts()[pri:0, instance:com.tests.Orangehrm@2d1ef81a]" started-at="2022-12-12T17:42:07 IST" name="navigateToContacts" finished-at="2022-12-12T17:42:09 IST" duration-ms="1498" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToContacts -->
+        <test-method signature="checkContacts()[pri:0, instance:com.tests.Orangehrm@2d1ef81a]" started-at="2022-12-12T17:42:09 IST" name="checkContacts" finished-at="2022-12-12T17:42:09 IST" duration-ms="96" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContacts -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.tests.Orangehrm@2d1ef81a]" started-at="2022-12-12T17:42:09 IST" name="teardown" finished-at="2022-12-12T17:42:11 IST" duration-ms="1751" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.tests.Orangehrm -->
+    </test> <!-- ContactsTest -->
+    <test started-at="2022-12-12T17:42:11 IST" name="facebookTest" finished-at="2022-12-12T17:42:37 IST" duration-ms="26513">
+      <class name="com.tests.MyfirstTest">
+        <test-method is-config="true" signature="initialisebrowser()[pri:0, instance:com.tests.MyfirstTest@815b41f]" started-at="2022-12-12T17:42:11 IST" name="initialisebrowser" finished-at="2022-12-12T17:42:15 IST" duration-ms="4090" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialisebrowser -->
+        <test-method signature="Testfacebook()[pri:0, instance:com.tests.MyfirstTest@815b41f]" started-at="2022-12-12T17:42:15 IST" name="Testfacebook" finished-at="2022-12-12T17:42:25 IST" duration-ms="10162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testfacebook -->
+        <test-method signature="Testgoogle()[pri:0, instance:com.tests.MyfirstTest@815b41f]" started-at="2022-12-12T17:42:25 IST" name="Testgoogle" finished-at="2022-12-12T17:42:36 IST" duration-ms="11109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testgoogle -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.tests.MyfirstTest@815b41f]" started-at="2022-12-12T17:42:36 IST" name="teardown" finished-at="2022-12-12T17:42:37 IST" duration-ms="1137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.tests.MyfirstTest -->
+    </test> <!-- facebookTest -->
+  </suite> <!-- Suite -->
+</testng-results>
